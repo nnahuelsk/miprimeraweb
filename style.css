@@ -56,7 +56,7 @@ main {
 .greeting {
   padding: 30px 20px;
   margin: 40px;
-  
+
 }
 
 #seccion-principal .section-principal {
@@ -100,16 +100,20 @@ main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0px 0px 0px 500px;
+  margin: 0px 0px 0px 300px;
+  border: 2px solid rgb(48, 38, 21) ;
+  display: block;
 }
 
-.hijos {
-  border: solid 2px;
+.PADRE .hjio3 {
   display: flex;
-  width: 40%;
-  flex-direction: column;
-
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px 0px 0px 300px;
+  border: 2px solid rgb(48, 38, 21) ;
+  display: block;
 }
+
 
 
 .button {
