@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #22211F;
+  width: 100%;
+  padding: 20px;
+}
+
+.titulo {
+  color: crimson;
+  margin: 0px 0px 0px 90px;
+  font-size: 50px;
+}
+
+header h1 {
+  padding: 20px;
+}
+
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+header nav {
+  padding: 30px;
+  width: 100%;
+}
+
+nav ul li a {
+  color: darkgrey;
+  float: right;
+  padding: 10px;
+  font-size: 25px;
+}
+
+body {
+  background-color: rgb(201, 198, 198);
+}
+
+.contenedor-de-logo {
+  display: flex;
+}
+
+/* CENTRO */
+main {
+  width: 100%;
+}
+
+#seccion-principal .section-principal {
+  padding: 30px 20px;
+  margin: 40px;
+}
+
+.section-principal .parrafo2 {
+  padding: 20px 15px;
+  margin: 30px;
+}
+
+.imagenes-centrales {
+  position: relative;
+}
+
+.imagenes-hijo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  margin: -25px 0 0 -25px;
+}
+
+.imagenes-hijo2 {
+  margin-top: 70px;
+}
+
+.parrafo3 {
+  margin-top: 300px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parrafo4 {
+  margin: 40px;
+}
+
+.PADRE .hijo1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px 0px 0px 500px;
+}
+
+.hijos {
+  border: solid 2px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+
+}
+
+
+.button {
+  color: #fff;
+  background-color: #5a5d61;
+  /* Blue */
+  font-weight: bold;
+  padding: 20px 0px 10px 30px;
+  text-align: center;
+  border: 3px solid #363434;
+  /* Dark gray */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:active {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+/* ESTILOS */
+.container-nav {
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: #3a3833;
+  padding: 20px;
+  margin: 20px;
+}
