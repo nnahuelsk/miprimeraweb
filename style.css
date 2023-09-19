@@ -53,9 +53,14 @@ body {
 main {
   width: 100%;
 }
+.greeting {
+  padding: 30px 20px;
+  margin: 40px;
+  
+}
 
 #seccion-principal .section-principal {
-  padding: 30px 20px;
+  padding: 10px 5px;
   margin: 40px;
 }
 
